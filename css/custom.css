@@ -1,0 +1,27 @@
+
+#hidden {
+  display: none;
+  height: 100px;
+  
+}
+:checked + #hidden {
+  display: block;
+}
+
+
+.box{
+  border: none;  
+  
+}
+.img1{
+  
+}
+
+.sakshlogo{
+    float:left;
+    width:100px;
+   
+}
+
+
+

@@ -194,85 +194,85 @@ else{
   <label><?php _e( 'Currency:', 'aistore' ) ;?></label>
 <br>
  <select name="currency">
-	<option value="USD" selected="selected">United States Dollars</option>
-	<option value="EUR">Euro</option>
-	<option value="GBP">United Kingdom Pounds</option>
-	<option value="DZD">Algeria Dinars</option>
-	<option value="ARP">Argentina Pesos</option>
-	<option value="AUD">Australia Dollars</option>
-	<option value="ATS">Austria Schillings</option>
-	<option value="BSD">Bahamas Dollars</option>
-	<option value="BBD">Barbados Dollars</option>
-	<option value="BEF">Belgium Francs</option>
-	<option value="BMD">Bermuda Dollars</option>
-	<option value="BRR">Brazil Real</option>
-	<option value="BGL">Bulgaria Lev</option>
-	<option value="CAD">Canada Dollars</option>
-	<option value="CLP">Chile Pesos</option>
-	<option value="CNY">China Yuan Renmimbi</option>
-	<option value="CYP">Cyprus Pounds</option>
-	<option value="CSK">Czech Republic Koruna</option>
-	<option value="DKK">Denmark Kroner</option>
-	<option value="NLG">Dutch Guilders</option>
-	<option value="XCD">Eastern Caribbean Dollars</option>
-	<option value="EGP">Egypt Pounds</option>
-	<option value="FJD">Fiji Dollars</option>
-	<option value="FIM">Finland Markka</option>
-	<option value="FRF">France Francs</option>
-	<option value="DEM">Germany Deutsche Marks</option>
-	<option value="XAU">Gold Ounces</option>
-	<option value="GRD">Greece Drachmas</option>
-	<option value="HKD">Hong Kong Dollars</option>
-	<option value="HUF">Hungary Forint</option>
-	<option value="ISK">Iceland Krona</option>
-	<option value="INR">India Rupees</option>
-	<option value="IDR">Indonesia Rupiah</option>
-	<option value="IEP">Ireland Punt</option>
-	<option value="ILS">Israel New Shekels</option>
-	<option value="ITL">Italy Lira</option>
-	<option value="JMD">Jamaica Dollars</option>
-	<option value="JPY">Japan Yen</option>
-	<option value="JOD">Jordan Dinar</option>
-	<option value="KRW">Korea (South) Won</option>
-	<option value="LBP">Lebanon Pounds</option>
-	<option value="LUF">Luxembourg Francs</option>
-	<option value="MYR">Malaysia Ringgit</option>
-	<option value="MXP">Mexico Pesos</option>
-	<option value="NLG">Netherlands Guilders</option>
-	<option value="NZD">New Zealand Dollars</option>
-	<option value="NOK">Norway Kroner</option>
-	<option value="PKR">Pakistan Rupees</option>
-	<option value="XPD">Palladium Ounces</option>
-	<option value="PHP">Philippines Pesos</option>
-	<option value="XPT">Platinum Ounces</option>
-	<option value="PLZ">Poland Zloty</option>
-	<option value="PTE">Portugal Escudo</option>
-	<option value="ROL">Romania Leu</option>
-	<option value="RUR">Russia Rubles</option>
-	<option value="SAR">Saudi Arabia Riyal</option>
-	<option value="XAG">Silver Ounces</option>
-	<option value="SGD">Singapore Dollars</option>
-	<option value="SKK">Slovakia Koruna</option>
-	<option value="ZAR">South Africa Rand</option>
-	<option value="KRW">South Korea Won</option>
-	<option value="ESP">Spain Pesetas</option>
-	<option value="XDR">Special Drawing Right (IMF)</option>
-	<option value="SDD">Sudan Dinar</option>
-	<option value="SEK">Sweden Krona</option>
-	<option value="CHF">Switzerland Francs</option>
-	<option value="TWD">Taiwan Dollars</option>
-	<option value="THB">Thailand Baht</option>
-	<option value="TTD">Trinidad and Tobago Dollars</option>
-	<option value="TRL">Turkey Lira</option>
-	<option value="VEB">Venezuela Bolivar</option>
-	<option value="ZMK">Zambia Kwacha</option>
-	<option value="EUR">Euro</option>
-	<option value="XCD">Eastern Caribbean Dollars</option>
-	<option value="XDR">Special Drawing Right (IMF)</option>
-	<option value="XAG">Silver Ounces</option>
-	<option value="XAU">Gold Ounces</option>
-	<option value="XPD">Palladium Ounces</option>
-	<option value="XPT">Platinum Ounces</option>
+	<option value="USD" selected="selected"><?php _e( 'United States Dollars:', 'aistore' ) ;?></option>
+	<option value="EUR"><?php _e( 'Euro:', 'aistore' ) ;?></option>
+	<option value="GBP"><?php _e( 'United Kingdom Pounds:', 'aistore' ) ;?></option>
+	<option value="DZD"><?php _e( 'Algeria Dinars', 'aistore' ) ;?></option>
+	<option value="ARP"><?php _e( 'Argentina Pesos', 'aistore' ) ;?></option>
+	<option value="AUD"><?php _e( 'Australia Dollars', 'aistore' ) ;?></option>
+	<option value="ATS"><?php _e( 'Austria Schillings:', 'aistore' ) ;?></option>
+	<option value="BSD"><?php _e( 'Bahamas Dollars:', 'aistore' ) ;?></option>
+	<option value="BBD"><?php _e( 'Barbados Dollars:', 'aistore' ) ;?></option>
+	<option value="BEF"><?php _e( 'Belgium Francs:', 'aistore' ) ;?></option>
+	<option value="BMD"><?php _e( 'Bermuda Dollars:', 'aistore' ) ;?></option>
+	<option value="BRR"><?php _e( 'Brazil Real:', 'aistore' ) ;?></option>
+	<option value="BGL"><?php _e( 'Bulgaria Lev:', 'aistore' ) ;?></option>
+	<option value="CAD"><?php _e( 'Canada Dollars:', 'aistore' ) ;?></option>
+	<option value="CLP"><?php _e( 'Chile Pesos:', 'aistore' ) ;?></option>
+	<option value="CNY"><?php _e( 'China Yuan Renmimbi:', 'aistore' ) ;?></option>
+	<option value="CYP"><?php _e( 'Cyprus Pounds:', 'aistore' ) ;?></option>
+	<option value="CSK"><?php _e( 'Czech Republic Koruna:', 'aistore' ) ;?></option>
+	<option value="DKK"><?php _e( 'Denmark Kroner:', 'aistore' ) ;?></option>
+	<option value="NLG"><?php _e( 'Dutch Guilders:', 'aistore' ) ;?></option>
+	<option value="XCD"><?php _e( 'Eastern Caribbean Dollars:', 'aistore' ) ;?></option>
+	<option value="EGP"><?php _e( 'Egypt Pounds:', 'aistore' ) ;?></option>
+	<option value="FJD"><?php _e( 'Fiji Dollars:', 'aistore' ) ;?></option>
+	<option value="FIM"><?php _e( 'Finland Markka:', 'aistore' ) ;?></option>
+	<option value="FRF"><?php _e( 'France Francs:', 'aistore' ) ;?></option>
+	<option value="DEM"><?php _e( 'Germany Deutsche Marks:', 'aistore' ) ;?></option>
+	<option value="XAU"><?php _e( 'Gold Ounces:', 'aistore' ) ;?></option>
+	<option value="GRD"><?php _e( 'Greece Drachmas:', 'aistore' ) ;?></option>
+	<option value="HKD"><?php _e( 'Hong Kong Dollars:', 'aistore' ) ;?></option>
+	<option value="HUF"><?php _e( 'Hungary Forint:', 'aistore' ) ;?></option>
+	<option value="ISK"><?php _e( 'Iceland Krona:', 'aistore' ) ;?></option>
+	<option value="INR"><?php _e( 'India Rupees:', 'aistore' ) ;?></option>
+	<option value="IDR"><?php _e( 'Indonesia Rupiah:', 'aistore' ) ;?></option>
+	<option value="IEP"><?php _e( 'Ireland Punt:', 'aistore' ) ;?></option>
+	<option value="ILS"><?php _e( 'Israel New Shekels:', 'aistore' ) ;?></option>
+	<option value="ITL"><?php _e( 'Italy Lira:', 'aistore' ) ;?></option>
+	<option value="JMD"><?php _e( 'Jamaica Dollars:', 'aistore' ) ;?></option>
+	<option value="JPY"><?php _e( 'Japan Yen:', 'aistore' ) ;?></option>
+	<option value="JOD"><?php _e( 'Jordan Dinar:', 'aistore' ) ;?></option>
+	<option value="KRW"><?php _e( 'Korea (South) Won:', 'aistore' ) ;?></option>
+	<option value="LBP"><?php _e( 'Lebanon Pounds:', 'aistore' ) ;?></option>
+	<option value="LUF"><?php _e( 'Luxembourg Francs:', 'aistore' ) ;?></option>
+	<option value="MYR"><?php _e( 'Malaysia Ringgit:', 'aistore' ) ;?></option>
+	<option value="MXP"><?php _e( 'Mexico Pesos:', 'aistore' ) ;?></option>
+	<option value="NLG"><?php _e( 'Netherlands Guilders:', 'aistore' ) ;?></option>
+	<option value="NZD"><?php _e( 'New Zealand Dollars:', 'aistore' ) ;?></option>
+	<option value="NOK"><?php _e( 'Norway Kroner:', 'aistore' ) ;?></option>
+	<option value="PKR"><?php _e( 'Pakistan Rupees:', 'aistore' ) ;?></option>
+	<option value="XPD"><?php _e( 'Palladium Ounces:', 'aistore' ) ;?></option>
+	<option value="PHP"><?php _e( 'Philippines Pesos:', 'aistore' ) ;?></option>
+	<option value="XPT"><?php _e( 'Platinum Ounces:', 'aistore' ) ;?></option>
+	<option value="PLZ"><?php _e( 'Poland Zloty:', 'aistore' ) ;?></option>
+	<option value="PTE"><?php _e( 'Portugal Escudo:', 'aistore' ) ;?></option>
+	<option value="ROL"><?php _e( 'Romania Leu:', 'aistore' ) ;?></option>
+	<option value="RUR"><?php _e( 'Russia Rubles:', 'aistore' ) ;?></option>
+	<option value="SAR"><?php _e( 'Saudi Arabia Riyal:', 'aistore' ) ;?></option>
+	<option value="XAG"><?php _e( 'Silver Ounces:', 'aistore' ) ;?></option>
+	<option value="SGD"><?php _e( 'Singapore Dollars:', 'aistore' ) ;?></option>
+	<option value="SKK"><?php _e( 'Slovakia Koruna:', 'aistore' ) ;?></option>
+	<option value="ZAR"><?php _e( 'South Africa Rand:', 'aistore' ) ;?></option>
+	<option value="KRW"><?php _e( 'South Korea Won:', 'aistore' ) ;?></option>
+	<option value="ESP"><?php _e( 'Spain Pesetas:', 'aistore' ) ;?></option>
+	<option value="XDR"><?php _e( 'Special Drawing Right (IMF):', 'aistore' ) ;?></option>
+	<option value="SDD"><?php _e( 'Sudan Dinar:', 'aistore' ) ;?></option>
+	<option value="SEK"><?php _e( 'Sweden Krona:', 'aistore' ) ;?></option>
+	<option value="CHF"><?php _e( 'Switzerland Francs:', 'aistore' ) ;?></option>
+	<option value="TWD"><?php _e( 'Taiwan Dollars:', 'aistore' ) ;?></option>
+	<option value="THB"><?php _e( 'Thailand Baht:', 'aistore' ) ;?></option>
+	<option value="TTD"><?php _e( 'Trinidad and Tobago Dollars:', 'aistore' ) ;?></option>
+	<option value="TRL"><?php _e( 'Turkey Lira:', 'aistore' ) ;?></option>
+	<option value="VEB"><?php _e( 'Venezuela Bolivar:', 'aistore' ) ;?></option>
+	<option value="ZMK"><?php _e( 'Zambia Kwacha:', 'aistore' ) ;?></option>
+	<option value="EUR"><?php _e( 'Euro:', 'aistore' ) ;?></option>
+	<option value="XCD"><?php _e( 'Eastern Caribbean Dollars:', 'aistore' ) ;?></option>
+	<option value="XDR"><?php _e( 'Special Drawing Right (IMF):', 'aistore' ) ;?></option>
+	<option value="XAG"><?php _e( 'Silver Ounces:', 'aistore' ) ;?></option>
+	<option value="XAU"><?php _e( 'Gold Ounces:', 'aistore' ) ;?></option>
+	<option value="XPD"><?php _e( 'Palladium Ounces:', 'aistore' ) ;?></option>
+	<option value="XPT"><?php _e( 'Platinum Ounces:', 'aistore' ) ;?></option>
 </select><br><br>
 
 
@@ -469,11 +469,12 @@ $results = $wpdb->get_results('SELECT * FROM '.$wpdb->prefix.'contest WHERE stat
 
   <div class="card ">
       
-    <a href="<?php echo $details_contest_page_id_url; ?>" class=" ">  
+    <a href="<?php echo esc_url($details_contest_page_id_url); ?>" class=" ">  
     <br>
     
- <?php echo "# ".$row->id." ".$row->title ; ?> 
+
     
+     <?php printf(__( "# : %s", 'aistore' ),$row->id." ".$row->title); ?>
     
     </a><br><br>
     
@@ -592,11 +593,11 @@ $user_id = get_current_user_id();
 
   <div class="card ">
       
-    <a href="<?php echo $details_contest_page_id_url; ?>" class=" ">  
+    <a href="<?php echo esc_url($details_contest_page_id_url); ?>" class=" ">  
     <br>
     
- <?php echo "# ".$row->id." ".$row->title ; ?> 
-    
+
+     <?php printf(__( "# : %s", 'aistore' ),$row->id." ".$row->title); ?>
     
     </a><br><br>
     
@@ -930,7 +931,7 @@ $wpdb->prepare("SELECT * FROM {$wpdb->prefix}contest_documents WHERE eid=%d and 
 <div class="box">
   <div >
 
-			<span class="b"><?php   _e( 'Entry ID:', 'aistore' ); ?> #<?php echo  $row->id;?> <br>
+			<span class="b"><?php   _e( 'Entry ID:', 'aistore' ); ?> #<?php echo  esc_attr($row->id);?> <br>
 			
 	<?php
 	   if(isset($_POST['submit']) and $_POST['action']=='rating' )
@@ -1007,7 +1008,7 @@ if($contest->status=='approved'){
 <input type="checkbox" id="my_checkbox" style="display:none;">
 <div id="hidden">
 	<label for="documents"> <?php   _e( 'Documents', 'aistore' ); ?> : </label>
-<form  method="post"  action="<?php echo admin_url('admin-ajax.php').'?action=custom_action&eid='.$eid; ?>" class="dropzone" id="dropzone">
+<form  method="post"  action="<?php echo esc_url(admin_url('admin-ajax.php').'?action=custom_action&eid='.$eid); ?>" class="dropzone" id="dropzone">
     <?php 
 wp_nonce_field( 'aistore_nonce_action', 'aistore_nonce' );
 ?>
@@ -1040,9 +1041,9 @@ function aistore_contest_rating_form($row)
     
     <form class="rating-form" action="" method="POST" name="rating">
 <?php wp_nonce_field( 'aistore_nonce_action', 'aistore_nonce' ); ?>
-<input type="hidden" name="document_id" value="<?php echo $row->id; ?>">
+<input type="hidden" name="document_id" value="<?php echo esc_attr($row->id); ?>">
 <select name="rate" id="rate" class="form-control">
-     <option value="0" selected>Select Rating</option>
+     <option value="0" selected><?php _e( 'Select Rating', 'aistore' );  ?></option>
   <option value="1">1</option>
   <option value="2">2</option>
   <option value="3">3</option>
@@ -1090,9 +1091,7 @@ $rating = $wpdb->get_results( "SELECT avg(rating) as rate FROM {$wpdb->prefix}co
  if(round($row1->rate)==5){
 ?> <strong style="color:orange; ">* * * * *</strong>   
 <?php }
-?>
-Submission #<?php echo  $row->id;?><br>
-
+ printf(__( "Submission # %s", 'aistore' ),$row->id;?>
 				</span>
 						</div> 
 </div>
@@ -1111,9 +1110,9 @@ Submission #<?php echo  $row->id;?><br>
      <form method="POST" action="" name="delete_image" enctype="multipart/form-data"> 
 
 <?php wp_nonce_field( 'aistore_nonce_action', 'aistore_nonce' ); ?>
-<input type="hidden" name="document_id" value="<?php echo $entry->id ; ?>">
+<input type="hidden" name="document_id" value="<?php echo esc_attr($entry->id) ; ?>">
 <input 
- type="submit" class="btn btn-primary btn-sm" name="submit" value="Delete"/>	
+ type="submit" class="btn btn-primary btn-sm" name="submit" value="<?php _e( 'Delete', 'aistore' );  ?>"/>	
 <input type="hidden" name="action" value="delete_image" />
 </form>
 
@@ -1135,7 +1134,7 @@ function aistore_contest_choose_him_as_winner_button($contest,$entry)
 <?php wp_nonce_field( 'aistore_nonce_action', 'aistore_nonce' ); ?>
 <input type="hidden" name="eid" value="<?php printf(__( "%s", 'aistore' ),$entry->id);?>">
 <input type="hidden" name="cid" value="<?php printf(__( "%s", 'aistore' ),$contest->id); ?>">
-<input type="submit" class="btn" name="submit" value="Choose him as winner"/>
+<input type="submit" class="btn" name="submit" value="<?php _e( 'Choose him as winner', 'aistore' );  ?>"/>
 <input type="hidden" name="action" value="winner_contest" />
 </form>
 

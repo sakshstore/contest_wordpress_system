@@ -63,7 +63,7 @@ $amount=intval($_REQUEST['amount']);
 
 $currency=sanitize_text_field($_REQUEST['currency']);
 $term_condition=sanitize_text_field(htmlentities($_REQUEST['term_condition']));
- $ends_date=sanitize_event_duration($_REQUEST['ends_date']);
+ $ends_date=sanitize_text_field($_REQUEST['ends_date']);
  
 $contest_holder_name=sanitize_text_field($_REQUEST['contest_holder_name']);
 $comapny_name=sanitize_text_field($_REQUEST['comapny_name']);
@@ -143,10 +143,10 @@ $Payment_details = __( 'Payment transaction for the content id', 'aistore' );
  $details=$Payment_details.$cid ; 
  
  
-$wallet->debit($user_id,$amount,$currency,$details);
+$wallet->aistore_debit($user_id,$amount,$currency,$details);
 $admin_id=get_option('escrow_user_id');
-$wallet->credit($admin_id,$contest_fee ,$currency,$details);
- $wallet->credit($admin_id,$new_amount,$currency,$details);
+$wallet->aistore_credit($admin_id,$contest_fee ,$currency,$details);
+ $wallet->aistore_credit($admin_id,$new_amount,$currency,$details);
 
 
 ?>
@@ -1091,7 +1091,7 @@ $rating = $wpdb->get_results( "SELECT avg(rating) as rate FROM {$wpdb->prefix}co
  if(round($row1->rate)==5){
 ?> <strong style="color:orange; ">* * * * *</strong>   
 <?php }
- printf(__( "Submission # %s", 'aistore' ),$row->id;?>
+ printf(__( "Submission # %s", 'aistore' ),$row->id );?>
 				</span>
 						</div> 
 </div>

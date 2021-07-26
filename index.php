@@ -96,7 +96,7 @@ function aistore_contest_table_install()
 )  ";
      
      $table_contest_notification="CREATE TABLE IF NOT EXISTS  " . $wpdb->prefix . "aistore_notification (
-  id int(100) NOT NULL,
+  id int(100) NOT NULL AUTO_INCREMENT,
   message varchar(100) DEFAULT NULL,
   type varchar(100) DEFAULT NULL,
   user_login varchar(100) DEFAULT NULL,
